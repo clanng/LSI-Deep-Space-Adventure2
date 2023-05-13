@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name 34.135.86.205;
+
+    location / {
+        root /home/christian_lanng/LSI-Deep-Space-Adventure2;
+        try_files $uri $uri/ =404;
+    }
+}
